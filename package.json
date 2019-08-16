@@ -1,14 +1,12 @@
 {
     "name": "@sex-pomelo/sex-pomelo-admin",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "private": false,
     "dependencies": {
         "mqtt-connection": "4.0.0",
-        "pomelo-scheduler": "0.3.8",
+        "@sex-pomelo/sex-pomelo-scheduler": "^0.4.4",
+        "@sex-pomelo/sex-pomelo-logger": "^0.1.11",
         "pomelo-monitor": "0.3.7"
-    },
-    "peerDependencies": {
-        "@sex-pomelo/sex-pomelo-logger": "0.1.9"
     },
     "devDependencies": {
         "should": ">=0.0.1",
