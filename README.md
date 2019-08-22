@@ -1,11 +1,11 @@
-#pomelo-admin
+#sex-pomelo-admin
 
-`pomelo-admin` is an admin console library for [pomelo](https://github.com/NetEase/pomelo). It provides the a series of utilities to monitor the `pomelo` server clusters.
+`sex-pomelo-admin` is an admin console library for [pomelo](https://github.com/NetEase/pomelo). It provides the a series of utilities to monitor the `pomelo` server clusters.
 
 ##Installation
 
 ```
-npm install pomelo-admin
+npm install @sex-pomelo/sex-pomelo-admin
 ```
 
 ##Basic conception

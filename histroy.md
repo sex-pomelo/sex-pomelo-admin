@@ -1,3 +1,13 @@
+
+1.0.4
+=================
+  * use @sex-pomelo/sex-pomelo-monitor replace pomelo-monitor.
+
+1.0.3
+=================
+  *  use @sex-pomelo/sex-pomelo-scheduler replace pomelo-scheduler.
+
+
 1.0.2 / 2019-01-10
 =================
   * Implement client reconnect.(实现客户端断线重连) 
