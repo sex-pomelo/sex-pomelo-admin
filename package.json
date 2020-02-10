@@ -1,6 +1,6 @@
 {
     "name": "@sex-pomelo/sex-pomelo-admin",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "private": false,
     "dependencies": {
         "mqtt-connection": "4.0.0",
