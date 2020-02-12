@@ -1,19 +1,23 @@
-var fs = require('fs');
-var consoleService = require('./lib/consoleService');
+const fs = require('fs');
+const consoleService = require('./lib/consoleService');
 
 module.exports.createMasterConsole = consoleService.createMasterConsole;
 module.exports.createMonitorConsole = consoleService.createMonitorConsole;
 module.exports.adminClient = require('./lib/client/client');
 
-exports.modules = {};
+let mods = {}; 
+
 fs.readdirSync(__dirname + '/lib/modules').forEach(function(filename) {
 	if (/\.js$/.test(filename)) {
-		var name = filename.substr(0, filename.lastIndexOf('.'));
-		var _module = require('./lib/modules/' + name);
+		let name = filename.substr(0, filename.lastIndexOf('.'));
+		let _module = require('./lib/modules/' + name);
 		if (!_module.moduleError) {
-			exports.modules.__defineGetter__(name, function() {
-				return _module;
+			Object.defineProperty( mods, name, { 
+				numerable: true,
+				get:function(){ return _module; }
 			});
 		}
 	}
 });
+
+exports.modules = mods;

@@ -1,3 +1,11 @@
+1.0.5
+=================
+update client.js
+  * add isConnected() function;
+  * connect() function add connFailExitProcess param. In Past if first connect master fail, the process will terminate
+     - **false**, client always reconnect.
+     - **true**, (**default**),first connect master fail, the process terminate.
+
 
 1.0.4
 =================
