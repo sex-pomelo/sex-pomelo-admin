@@ -1,3 +1,8 @@
+1.0.6
+=================
+  * systemInfo add host field.
+
+
 1.0.5
 =================
 update client.js
