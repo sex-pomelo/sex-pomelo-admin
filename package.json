@@ -2,6 +2,26 @@
     "name": "@sex-pomelo/sex-pomelo-admin",
     "version": "1.0.6",
     "private": false,
+    "homepage": "https://github.com/sex-pomelo/sex-pomelo-admin",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sex-pomelo/sex-pomelo-admin"
+    },
+    "bugs": {
+      "url": "https://github.com/sex-pomelo/sex-pomelo-admin/issues"
+    },
+    "licenses": [
+      {
+        "type": "MIT"
+      }
+    ],
+    "keywords": [
+      "pomelo-admin",
+      "pomelo-cli",
+      "sex-pomelo",
+      "sex-pomelo-admin",
+      "web"
+    ],
     "dependencies": {
         "mqtt-connection": "4.0.0",
         "@sex-pomelo/sex-pomelo-scheduler": "^0.4.4",
@@ -12,5 +32,6 @@
         "should": ">=0.0.1",
         "mocha": ">=0.0.1",
         "flow": ">=0.0.1"
-    }
+    },
+    "author": "shudingbo"
 }
