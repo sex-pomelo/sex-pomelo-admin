@@ -1,3 +1,8 @@
+1.0.7
+=================
+  * fix **show handler** Bug;
+  * fix **show connections** Bug, if server not exist, pomelo-admin will supend.
+
 1.0.6
 =================
   * systemInfo add host field.
