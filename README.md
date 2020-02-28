@@ -57,9 +57,7 @@ There are three optional callback functions in each module.
 
 The relations of the components is as below:
 
-<center>
 ![pomelo-admin-arch](https://github.com/shudingbo/mypictures/blob/master/sex-pomelo/pomelo-admin-arch.png?raw=true)
-</center>
 
 ## Usage
 
