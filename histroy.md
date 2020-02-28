@@ -1,3 +1,8 @@
+1.0.8
+=================
+ * fix mqttclient connect timeout,process exit(0) when **connFailExitProcess** is false.
+ * update readme
+
 1.0.7
 =================
   * fix **show handler** Bug;
