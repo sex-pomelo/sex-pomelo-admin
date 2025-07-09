@@ -1,3 +1,7 @@
+1.0.10
+=================
+ * bump version
+
 1.0.8
 =================
  * fix mqttclient connect timeout,process exit(0) when **connFailExitProcess** is false.

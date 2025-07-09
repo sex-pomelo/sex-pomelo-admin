@@ -9,7 +9,7 @@ let mods = {};
 
 fs.readdirSync(__dirname + '/lib/modules').forEach(function(filename) {
 	if (/\.js$/.test(filename)) {
-		let name = filename.substr(0, filename.lastIndexOf('.'));
+		let name = filename.slice(0, filename.lastIndexOf('.'));
 		let _module = require('./lib/modules/' + name);
 		if (!_module.moduleError) {
 			Object.defineProperty( mods, name, { 

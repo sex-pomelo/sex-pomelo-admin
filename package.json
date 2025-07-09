@@ -1,6 +1,6 @@
 {
   "name": "@sex-pomelo/sex-pomelo-admin",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "private": false,
   "homepage": "https://github.com/sex-pomelo/sex-pomelo-admin",
   "repository": {
@@ -23,14 +23,14 @@
     "web"
   ],
   "dependencies": {
-    "mqtt-connection": "4.0.0",
-    "@sex-pomelo/sex-pomelo-scheduler": "^0.4.5",
-    "@sex-pomelo/sex-pomelo-logger": "^0.1.13",
+    "mqtt-connection": "4.1.0",
+    "@sex-pomelo/sex-pomelo-scheduler": "^0.4.7",
+    "@sex-pomelo/sex-pomelo-logger": "^0.1.16",
     "@sex-pomelo/sex-pomelo-monitor": "^0.3.12"
   },
   "devDependencies": {
-    "should": ">=0.0.1",
-    "mocha": ">=0.0.1",
+    "should": ">=3.3.1",
+    "mocha": ">=11.7.1",
     "flow": ">=0.0.1"
   },
   "author": "shudingbo"
